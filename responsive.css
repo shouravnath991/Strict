@@ -1,0 +1,101 @@
+@media (max-width : 1200px){
+    .slider_contant h1::after {
+        left: 80px;
+        width: 450px;
+    }
+}
+@media (max-width : 992px){
+    .slider_contant h1 {
+        font-size: 100px;
+    }
+    .slider_contant h1::after {
+        left: 152px;
+        width: 390px;
+    }
+    .slider_contant p {
+        font-size: 18px;
+    }
+    .service_03{
+        padding-top: 40px;
+    }
+    .service_03 .service_icon{
+        position: relative;
+        left: 45%;
+    }
+    .footer_right p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px){
+    .slider_contant h1 {
+        font-size: 80px;
+    }
+    .slider_contant h1::after {
+        left: 108px;
+        width: 300px;
+    }
+    .slider_contant p {
+        font-size: 15px;
+    }
+    .about_section h2 {
+        font-size: 35px;
+    }
+    .about_section p {
+        font-size: 13px;
+    }
+    .contact_btn {
+        margin-left: 45%;
+    }
+    .footer_icon {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer_right p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .slider {
+        padding: 130px 0;
+    }
+    .slider_contant i {
+        top: 120px;
+    }
+    .slider_contant h1 {
+        font-size: 60px;
+    }
+    .slider_contant h1::after {
+        left: 155px;
+        width: 230px;
+    }
+    .slider_contant p {
+        font-size: 13px;
+    }
+    .service_01{
+        margin-bottom: 40px;
+    }
+    .service_03 .service_icon{
+        position: relative;
+        left: 45%;
+    }
+    .service_01 .service_icon{
+        position: relative;
+        left: 45%;
+    }
+    .service_02 .service_icon{
+        position: relative;
+        left: 45%;
+    }
+    .port_margin{
+        margin-top: 22px;
+    }
+    .contact_btn {
+        width: 100%;
+        margin-left: 0;
+    }
+    .portfolio_contant img {
+        width: 100%;
+    }
+        
+}
