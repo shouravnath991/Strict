@@ -3,6 +3,9 @@
         left: 80px;
         width: 450px;
     }
+    .contact_btn {
+        margin-left: 78%;
+    }
 }
 @media (max-width : 992px){
     .slider_contant h1 {
@@ -24,6 +27,9 @@
     }
     .footer_right p {
         font-size: 14px;
+    }
+    .contact_btn {
+        margin-left: 84%;
     }
 }
 @media (max-width: 768px){
@@ -53,6 +59,17 @@
     .footer_right p {
         font-size: 14px;
         text-align: center;
+    }
+    .service_01 {
+        margin-bottom: 40px;
+    }
+    .service_icon {
+        left: 45%;
+    }
+}
+@media (max-width:673px){
+    .contact_btn {
+        margin-left: 78%;
     }
 }
 @media (max-width: 576px){
@@ -93,6 +110,7 @@
     .contact_btn {
         width: 100%;
         margin-left: 0;
+        margin-top: 20px;
     }
     .portfolio_contant img {
         width: 100%;
