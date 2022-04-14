@@ -83,7 +83,7 @@
         font-size: 60px;
     }
     .slider_contant h1::after {
-        left: 155px;
+        left: 145px;
         width: 230px;
     }
     .slider_contant p {
@@ -116,4 +116,22 @@
         width: 100%;
     }
         
+}
+@media (max-width:460px){
+    .slider_contant h1::after {
+        left: 105px;
+        width: 230px;
+    }
+}
+@media (max-width:442px){
+    .slider_contant h1::after {
+        left: 95px;
+        width: 230px;
+    }
+}
+@media (max-width:400px){
+    .slider_contant h1::after {
+        left: 75px;
+        width: 230px;
+    }
 }
